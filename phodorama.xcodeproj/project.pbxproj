@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2903B8021EF34D36005694E3 /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903B8011EF34D36005694E3 /* PhotoDataSource.swift */; };
+		2903B8041EF3556B005694E3 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903B8031EF3556B005694E3 /* PhotoCollectionViewCell.swift */; };
 		297D3FA91EE9996E00DFB851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297D3FA81EE9996E00DFB851 /* AppDelegate.swift */; };
 		297D3FAE1EE9996E00DFB851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297D3FAC1EE9996E00DFB851 /* Main.storyboard */; };
 		297D3FB01EE9996E00DFB851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297D3FAF1EE9996E00DFB851 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2903B8011EF34D36005694E3 /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		2903B8031EF3556B005694E3 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		297D3FA51EE9996E00DFB851 /* phodorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phodorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		297D3FA81EE9996E00DFB851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		297D3FAD1EE9996E00DFB851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				297D3FD81EE99E2300DFB851 /* FlickerAPI.swift */,
 				297D3FDA1EE9B04100DFB851 /* PhotoStore.swift */,
 				297D3FDC1EE9B9CC00DFB851 /* Photo.swift */,
+				2903B8011EF34D36005694E3 /* PhotoDataSource.swift */,
+				2903B8031EF3556B005694E3 /* PhotoCollectionViewCell.swift */,
 			);
 			path = phodorama;
 			sourceTree = "<group>";
@@ -271,6 +277,8 @@
 				297D3FD71EE999B800DFB851 /* PhodoViewController.swift in Sources */,
 				297D3FA91EE9996E00DFB851 /* AppDelegate.swift in Sources */,
 				297D3FDB1EE9B04100DFB851 /* PhotoStore.swift in Sources */,
+				2903B8021EF34D36005694E3 /* PhotoDataSource.swift in Sources */,
+				2903B8041EF3556B005694E3 /* PhotoCollectionViewCell.swift in Sources */,
 				297D3FD91EE99E2300DFB851 /* FlickerAPI.swift in Sources */,
 				297D3FDD1EE9B9CC00DFB851 /* Photo.swift in Sources */,
 			);
@@ -519,6 +527,7 @@
 				297D3FCF1EE9996E00DFB851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		297D3FD01EE9996E00DFB851 /* Build configuration list for PBXNativeTarget "phodoramaTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +536,7 @@
 				297D3FD21EE9996E00DFB851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		297D3FD31EE9996E00DFB851 /* Build configuration list for PBXNativeTarget "phodoramaUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +545,7 @@
 				297D3FD51EE9996E00DFB851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
